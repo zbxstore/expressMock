@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>线上接口</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/content.css">
+  </head>
+  <style>
+      body{background: #eee;}
+      h1{color: #00b7ff}
+      h1 a{color: red}
+  </style>
+  <body>
+    <h1>线上接口<a href="/api">测试接口></a></h1>
 
-<head>
-  <title>弹出页模拟接口</title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
-  <link rel="stylesheet" href="/stylesheets/content.css">
-</head>
+    <p>
+      <h3>弹窗页</h3>
+      <a href="https://browser-plugin.qiang100.com/api/popupPage/getListOfChina">国内折扣</a>
+      <a href="https://browser-plugin.qiang100.com/api/popupPage/getListOfLowest">历史最低</a>
+      <a href="https://browser-plugin.qiang100.com/api/popupPage/getListOfMyFocus">我的关注</a>
+      <a href="https://browser-plugin.qiang100.com/api/popupPage/getListOfOversea">海淘折扣</a>
+    </p>
+    <p>
+      <h3>内容页</h3>
+      <a href="https://browser-plugin.qiang100.com/api/contentPage/getProductPriceLine?url=https%3A%2F%2Fdetail.tmall.com%2Fitem.htm%3Fspm%3Da220m.1000858.1000725.5.55ee3bb2YCKwax%26id%3D550656854809%26skuId%3D3357274824383%26areaId%3D340100%26user_id%3D782731205%26cat_id%3D2%26is_b%3D1%26rn%3D10356deff389ef9745bc27bb7c4507f0">价格走势</a>
+      <a href="https://browser-plugin.qiang100.com/api/contentPage/getAllMallPricce?url=https%3A%2F%2Fdetail.tmall.com%2Fitem.htm%3Fspm%3Da220m.1000858.1000725.5.55ee3bb2YCKwax%26id%3D550656854809%26skuId%3D3357274824383%26areaId%3D340100%26user_id%3D782731205%26cat_id%3D2%26is_b%3D1%26rn%3D10356deff389ef9745bc27bb7c4507f0">全网比价</a>
+      <a href="https://browser-plugin.qiang100.com/api/contentPage/getProductEvaluateInfo?url=https%3A%2F%2Fdetail.tmall.com%2Fitem.htm%3Fspm%3Da220m.1000858.1000725.5.55ee3bb2YCKwax%26id%3D550656854809%26skuId%3D3357274824383%26areaId%3D340100%26user_id%3D782731205%26cat_id%3D2%26is_b%3D1%26rn%3D10356deff389ef9745bc27bb7c4507f0">好评率</a>
 
-<body>
-  <h1>
-    <%= title %>
-      <a href="/api">devApi</a>
-  </h1>
-  <p>
-    <a href="/images/content-logo.png">图片路径</a>
+      <a href="https://browser-plugin.qiang100.com/api/contentPage/getBrandInfo?name=Sony%2F索尼%20G8142%20Xperia%20XZ%20Premium智能手机%20索尼xzp&brandName=Sony%2F索尼&url=https%3A%2F%2Fdetail.tmall.com%2Fitem.htm%3Fspm%3Da220m.1000858.1000725.5.55ee3bb2YCKwax%26id%3D550656854809%26skuId%3D3357274824383%26areaId%3D340100%26user_id%3D782731205%26cat_id%3D2%26is_b%3D1%26rn%3D10356deff389ef9745bc27bb7c4507f0">品牌信息</a>
+    </p>
 
-  </p>
-  <p>
-    <h3>弹窗页mock</h3>
-    <a href="/popupPage/getListOfChina">国内折扣</a>
-    <a href="/popupPage/getListOfLowest">历史最低</a>
-    <a href="/popupPage/getListOfMyFocus">我的关注</a>
-    <a href="/popupPage/getListOfOversea">海淘折扣</a>
-  </p>
-  <p>
-    <h3>内容页mock</h3>
-    <a href="/contentPage/getProductPriceLine">价格走势</a>
-    <a href="/contentPage/getAllMallPricce">全网比价</a>
-    <a href="/contentPage/getProductEvaluateInfo">好评率</a>
-    <a href="/contentPage/getBrandInfo">品牌信息</a>
-  </p>
+    <p>
+      <h3>设置页</h3>
+      <a href="https://browser-plugin.qiang100.com/api/optionPage/uploadOptions">上传设置</a>
+      <a href="https://browser-plugin.qiang100.com/api/optionPage/downloadOptions">下载设置</a>
+    </p>
 
-  <p>
-    <h3>设置页mock</h3>
-    <a href="/optionPage/uploadOptions">上传设置</a>
-    <a href="/optionPage/downloadOptions">下载设置</a>
-  </p>
+    <p>
+      <h3>背景页</h3>
+      <a href="https://browser-plugin.qiang100.com/api/bgPage/getUserInfo">获取用户信息</a>
+      <a href="https://browser-plugin.qiang100.com/api/bgPage/getPush?xx=1">获取推送信息</a>
+    </p>
 
-  <!--    <script src="/javascripts/jquery.min.js"></script>
-    <script src="/javascripts/remote.js"></script>
- -->
-</body>
-
+ </body>
 </html>
