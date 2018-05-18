@@ -14,7 +14,7 @@ var optionRouter = require('./routes/optionPage');
 
 var app = express();
 
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
+//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 // 跨域设置
 app.all('/popupPage/*', function (req, res, next) {
